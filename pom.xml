@@ -75,7 +75,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>mx.uv.fei.gui.templemethod/mx.uv.fei.gui.Demo
+                            <mainClass>mx.uv.fei.gui.templemethod/TemplateMethod.gui.Demo
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

@@ -1,4 +1,4 @@
-package mx.uv.fei.logic;
+package TemplateMethod.logic;
 
 public class MacOS extends SistemaOperativo {
 

@@ -1,10 +1,10 @@
-package mx.uv.fei.gui;
+package TemplateMethod.gui;
 
+import TemplateMethod.logic.Linux;
+import TemplateMethod.logic.SistemaOperativo;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
-import mx.uv.fei.logic.Linux;
-import mx.uv.fei.logic.SistemaOperativo;
 
 import java.io.IOException;
 

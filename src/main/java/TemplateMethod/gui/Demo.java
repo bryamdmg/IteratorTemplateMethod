@@ -1,4 +1,4 @@
-package mx.uv.fei.gui;
+package TemplateMethod.gui;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

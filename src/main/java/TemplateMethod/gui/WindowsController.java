@@ -1,9 +1,9 @@
-package mx.uv.fei.gui;
+package TemplateMethod.gui;
 
+import TemplateMethod.logic.SistemaOperativo;
+import TemplateMethod.logic.Windows;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import mx.uv.fei.logic.SistemaOperativo;
-import mx.uv.fei.logic.Windows;
 
 import java.io.IOException;
 

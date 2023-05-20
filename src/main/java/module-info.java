@@ -5,6 +5,6 @@ module mx.uv.fei.gui {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
 
-    exports mx.uv.fei.gui;
-    opens mx.uv.fei.gui to javafx.fxml;
+    exports TemplateMethod.gui;
+    opens TemplateMethod.gui to javafx.fxml;
 }

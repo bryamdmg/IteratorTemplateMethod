@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35fda539-c165-4297-b812-f06f6e14a382" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/ListaEnlazada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/IteratorPattern/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/gui/ComputadoraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/gui/ComputadoraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/gui/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/gui/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/gui/LinuxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/gui/LinuxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/gui/MacOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/gui/MacOSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/gui/WindowsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/gui/WindowsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/logic/Linux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/logic/Linux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/logic/MacOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/logic/MacOS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/logic/SistemaOperativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/logic/SistemaOperativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/uv/fei/logic/Windows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TemplateMethod/logic/Windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mx/uv/fei/gui/computadora-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TemplateMethod/gui/computadora-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mx/uv/fei/gui/linux-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TemplateMethod/gui/linux-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mx/uv/fei/gui/macos-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TemplateMethod/gui/macos-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mx/uv/fei/gui/windows-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TemplateMethod/gui/windows-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +70,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Bryam/IdeaProjects/TempleMethod/src/main/java/mx/uv/fei/gui&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/danae/IdeaProjects/TempleMethod&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bryam/IdeaProjects/IteratorTemplateMethod&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -67,22 +84,53 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bryam\IdeaProjects\IteratorTemplateMethod\target\classes\IteratorPattern" />
       <recent name="C:\Users\Bryam\IdeaProjects\TempleMethod\src\main\resources\mx\uv\fei\gui" />
       <recent name="C:\Users\Bryam\IdeaProjects\TempleMethod\src\main\resources\mx.uv.fei.logic" />
       <recent name="C:\Users\Bryam\IdeaProjects\TempleMethod\src\main\resources" />
       <recent name="C:\Users\Bryam\IdeaProjects\TempleMethod\src\main\resources\mx\uv\fei\gui\templemethod\mx.uv.fei.logic" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="TemplateMethod" />
       <recent name="mx.uv.fei.gui" />
     </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TemplateMethod.gui.Demo" />
+      <module name="TempleMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TemplateMethod.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IteratorPattern.Main" />
+      <module name="TempleMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mx.uv.fei.gui.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mx.uv.fei.gui.Demo" />
       <module name="TempleMethod" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mx.uv.fei.logic.*" />
+          <option name="PATTERN" value="mx.uv.fei.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,6 +141,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.mx.uv.fei.gui.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +159,8 @@
       <workItem from="1684212936945" duration="1484000" />
       <workItem from="1684264868520" duration="723000" />
       <workItem from="1684449608339" duration="543000" />
+      <workItem from="1684615676406" duration="310000" />
+      <workItem from="1684615995803" duration="806000" />
     </task>
     <servers />
   </component>
